@@ -1,0 +1,358 @@
+body {
+    background-image: url(bg.jpg);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 10px;
+    margin-top: 200px;
+
+    padding: 60px 20px 20px 20px;
+    background-color: #FEFAE0;
+    border-radius: 20px;
+
+
+    width: 1000px;
+    height: auto;
+    
+
+    font-family: "Caprasimo", serif;
+    font-weight: 400;
+    font-style: normal;
+
+    
+}
+
+.pfp {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    margin-top: -100px;
+
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+
+}
+
+.pfp img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+
+    background-color: #FEFAE0;
+
+}
+
+.texts {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title {
+    display: flexbox;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.header-title h1 {
+    font-size: 50px;
+    color: #BC6C25;
+}
+
+.nav {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: -30px;
+}
+
+.nav ul li a {
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #c9b965;
+    color:#FEFAE0;
+    border-radius: 20px;
+}
+
+.nav li a.active, .nav li a:hover:not(.active){
+    background-color: #df802c;
+}
+
+
+
+
+
+
+
+
+.welc {
+    display: flexbox;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.welc h2 {
+    font-size: 80px;
+    color: #696e23;
+}
+
+.welc p {
+    font-family: "Allerta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #696e23;
+
+    margin-top: -50px;
+}
+
+
+
+
+
+
+
+
+
+.columns {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 50px;
+    margin-left: 20px;
+    
+}
+
+.about {
+    display: inline;
+    justify-content: left;
+    align-content: left;
+    margin-top: -50px;
+    
+}
+
+.about h2 {
+    color:#696e23;
+    font-size: 50px;
+}
+
+.about ul {margin-top: -30px;}
+
+.about ul li {
+    color:#696e23;
+    font-family: "Allerta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    
+}
+
+.pink-boxes {
+    display: flexbox;
+    flex-direction: column;
+    margin: 10px;
+    
+}
+
+.likes , .skills {
+    padding-right: 100px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: #e39168;
+    border-radius: 20px;
+    color:#FEFAE0;
+    margin:30px;
+    width: 250px;
+    height:150px;
+}
+
+.likes ul li, .likes h3 , .skills ul li, .skills h3  {
+    margin-left: 20px;
+    
+}
+
+.likes h3, .skills h3 {
+    font-weight: 100;
+}
+
+.likes li, .skills li {
+    font-family: "Allerta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+
+.portfolio {
+    margin: 50px auto;
+    overflow: hidden;
+    max-width: 800px;
+    height: auto;
+}
+
+.set1 {
+    margin-bottom: 50px;
+}
+
+.portfolio ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.set1 ul{
+    column-count: 3;
+    column-gap: 16px;
+}
+
+
+.portfolio ul li {
+    break-inside: avoid; 
+    margin-bottom: 16px;         
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.portfolio ul li img {
+    width: 100%;
+    height: auto; 
+    display: block;
+    border-radius: 12px;
+
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.portfolio ul li img:hover {
+    transform: scale(1.06); 
+    cursor: pointer;
+}
+
+.pic img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 790px;
+    margin-bottom: 50px;
+    border-radius: 12px;
+
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.pic img:hover {
+    transform: scale(1.06);
+    cursor: pointer;
+}
+
+
+
+
+
+
+.socials {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.socials ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: -30px;
+}
+
+.socials ul li {
+    margin:30px;
+    margin-top: -50px;
+    margin-bottom: -500px;
+    font-size: 30px;
+    color: #696e23;
+}
+
+
+
+
+
+
+.icons {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.icons ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: -30px;
+}
+
+.icons ul a {
+    margin: 10px;
+    padding: 20px;
+    background-color: #c9b965;
+    border-radius:100px;
+}
+
+.icons img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: -5px;
+}
+
+.icons li a:hover:not(.active){
+    background-color: #df802c;
+}
+
+
+
+
+@keyframes fadeInPage {
+    from {
+        opacity: 0;
+        transform: translateY(10px); /* Slightly slides up for a premium feel */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 2. Create the class that triggers the animation */
+.page-transition {
+    animation: fadeInPage 0.5s ease-out forwards; /* 0.5s is the speed of the transition */
+}
+
+
